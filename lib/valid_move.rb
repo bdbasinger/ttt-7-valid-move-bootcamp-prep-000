@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board, idx)
-  if (board[idx] > 8) || (board[idx] < 0)
+  if (board[idx].to_i > 8) || (board[idx].to_i < 0)
     return nil 
   end
   if (board[idx].to_i.between?(0, 8)) && (position_taken?(board, idx) == false)
