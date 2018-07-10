@@ -3,7 +3,7 @@ def valid_move?(board, idx)
   if (board[idx].to_i > 8) || (board[idx].to_i < 0)
     return nil 
   end
-  if (board[idx].to_i.between?(0, 8)) && (position_taken?(board, idx) == false)
+  if (board[idx].to_i.between?(0, 8)) && (position_taken?(board, idx))
       return true 
   else
     return false
