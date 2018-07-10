@@ -13,8 +13,7 @@ end
 # re-define your #position_taken? method here, 
 # so that you can use it in the #valid_move? method above.
 
-#>> 1.is_a? Integer
-#>> true
+
 
 def position_taken?(board, idx)
   if (board[idx] == " ") || (board[idx] == "") || (board[idx].nil?)
