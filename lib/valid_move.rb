@@ -9,12 +9,6 @@ end
 
 
 def position_taken?(board, idx)
-  if (board[idx] == " ") || (board[idx] == "") || (board[idx].nil?)
-    #false
-    true
-  else
-    #true
-    false
-  end
+
 end
 
