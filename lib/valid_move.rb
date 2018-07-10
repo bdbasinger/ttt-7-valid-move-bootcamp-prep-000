@@ -10,6 +10,6 @@ end
 
 
 def position_taken?(board, idx)
-  
+  if board[idx] != " "
 end
 
